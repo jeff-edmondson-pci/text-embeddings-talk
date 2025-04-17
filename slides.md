@@ -92,5 +92,13 @@ How text embeddings work and why they are cool 😎
 
 - Accounts will be embedded and then stored in the Qdrant
   - Qdrant Dashboard
+    ![alt text](image-2.png)
 - Transactions will be embedded and then used to search
-  - Transactions are not stored in the vector database
+- Transactions are not stored in the vector database
+
+---
+
+# Demo
+
+![alt text](image-3.png)
+![alt text](image-4.png)
