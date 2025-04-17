@@ -18,8 +18,9 @@ import { matchTransaction } from './services/matcher.js';
     console.log(`   ↳ Description: "${tx.transactionDescription}"`);
     console.log(`   ↳ Merchant: ${tx.transactionMerchant}`);
     console.log(`   ↳ Amount: $${tx.transactionAmount.toFixed(2)}`);
-    console.log(`➡️  Suggested Account: ${match.accountName} (${match.accountId})`);
-    console.log(`   ↳ ${match.accountDescription}`);
+    console.log(`➡️  Suggested Account: ${match.payload.accountName} (${match.payload.accountId})`);
+    console.log('   ↳ With Accuracy: ' + match.score);
+    console.log(`   ↳ ${match.payload.accountDescription}`);
     console.log('---');
   }
 })();

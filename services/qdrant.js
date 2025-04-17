@@ -40,5 +40,6 @@ export async function searchMatch(vector) {
     limit: 1,
   });
 
-  return result.map(r => r.payload);
+  //   return result.map(r => r.payload);
+  return result;
 }
