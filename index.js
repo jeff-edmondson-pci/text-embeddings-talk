@@ -8,11 +8,13 @@ import { matchTransaction } from './services/matcher.js';
   await initQdrant();
 
   console.log('📥 Indexing account data...');
+  // Step 1:
   await insertAccounts(accounts);
 
   console.log('\n🔍 Matching transactions:\n');
 
   for (const tx of transactions) {
+    // Step 2:
     const match = await matchTransaction(tx);
     console.log(`🧾 Transaction: ${tx.transactionId}`);
     console.log(`   ↳ Description: "${tx.transactionDescription}"`);

@@ -19,7 +19,7 @@ export const transactions = [
   },
   {
     transactionId: 'txn004',
-    transactionDescription: "Bought groceries at Trader Joe's",
+    transactionDescription: "Bought groceries at Trader Joe's for the household.",
     transactionMerchant: "Trader Joe's",
     transactionAmount: 54.23,
   },
