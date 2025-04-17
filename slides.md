@@ -77,3 +77,11 @@ How text embeddings work and why they are cool 😎
 - No I don't remember what any of these actually mean
 
 ---
+
+# Demo
+
+- Goal: Create a transaction categorization service.
+  - Based on the transaction description, find the correct account that it be longs to
+- Ollama - Used for running open source models locally & for free
+- `nomic-embed-text` - popular open source text embedding model
+- Qdrant - Open source vector database
