@@ -34,10 +34,10 @@ export async function insertAccounts(accounts) {
   await qdrant.upsert(COLLECTION_NAME, { points });
 }
 
-export async function searchMatch(vector, topK = 1) {
+export async function searchMatch(vector) {
   const result = await qdrant.search(COLLECTION_NAME, {
     vector,
-    limit: topK,
+    limit: 1,
   });
 
   return result.map(r => r.payload);

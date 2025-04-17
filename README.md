@@ -21,7 +21,7 @@ Presentation slides + example transaction categorization service
 Download and install Ollama. https://ollama.com/library/nomic-embed-text
 
 ```bash
-`ollama pull nomic-embed-text`
+ollama pull nomic-embed-text
 ```
 
 ### Qdrant

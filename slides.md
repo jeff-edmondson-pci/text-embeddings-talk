@@ -85,3 +85,12 @@ How text embeddings work and why they are cool 😎
 - Ollama - Used for running open source models locally & for free
 - `nomic-embed-text` - popular open source text embedding model
 - Qdrant - Open source vector database
+
+---
+
+# Demo
+
+- Accounts will be embedded and then stored in the Qdrant
+  - Qdrant Dashboard
+- Transactions will be embedded and then used to search
+  - Transactions are not stored in the vector database
